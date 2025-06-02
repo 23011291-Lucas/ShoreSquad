@@ -1,0 +1,78 @@
+{
+  "name": "ShoreSquad - Beach Cleanup Community",
+  "short_name": "ShoreSquad",
+  "description": "Rally your crew, track weather, and hit the next beach cleanup with our dope map app!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F1D1",
+  "theme_color": "#2E86AB",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["lifestyle", "social", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%232E86AB'/%3E%3Ctext x='96' y='120' font-size='120' text-anchor='middle' fill='white'%3E🌊%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%232E86AB'/%3E%3Ctext x='256' y='320' font-size='320' text-anchor='middle' fill='white'%3E🌊%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Events",
+      "short_name": "Events",
+      "description": "Find beach cleanup events near you",
+      "url": "/#map",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%232E86AB'/%3E%3Ctext x='48' y='60' font-size='60' text-anchor='middle' fill='white'%3E🗺️%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Check Weather",
+      "short_name": "Weather",
+      "description": "Check weather conditions for cleanup",
+      "url": "/#weather",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%232E86AB'/%3E%3Ctext x='48' y='60' font-size='60' text-anchor='middle' fill='white'%3E🌤️%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Join Community",
+      "short_name": "Community",
+      "description": "Connect with the ShoreSquad community",
+      "url": "/#community",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%232E86AB'/%3E%3Ctext x='48' y='60' font-size='60' text-anchor='middle' fill='white'%3E👥%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'%3E%3Crect width='540' height='720' fill='%23F6F1D1'/%3E%3Crect x='20' y='20' width='500' height='680' fill='white' rx='10'/%3E%3Ctext x='270' y='100' font-size='32' text-anchor='middle' fill='%231B263B'%3EShoreSquad%3C/text%3E%3Ctext x='270' y='140' font-size='16' text-anchor='middle' fill='%236C757D'%3EBeach Cleanup Community%3C/text%3E%3Crect x='40' y='180' width='460' height='200' fill='%232E86AB' rx='8'/%3E%3Ctext x='270' y='290' font-size='48' text-anchor='middle' fill='white'%3E🗺️%3C/text%3E%3Ctext x='270' y='450' font-size='20' text-anchor='middle' fill='%231B263B'%3EFind Events Near You%3C/text%3E%3Ctext x='270' y='500' font-size='20' text-anchor='middle' fill='%231B263B'%3ETrack Weather Conditions%3C/text%3E%3Ctext x='270' y='550' font-size='20' text-anchor='middle' fill='%231B263B'%3EConnect with Community%3C/text%3E%3C/svg%3E",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
