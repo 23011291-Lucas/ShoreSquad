@@ -159,16 +159,16 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Weather Section -->
+    </section>    <!-- Weather Section -->
     <section id="weather" class="weather-section">
         <div class="container">
-            <h2 class="section-title">Weather Check</h2>
+            <h2 class="section-title">Weather Check for Beach Cleanups</h2>
+            
+            <!-- Current Weather Widget -->
             <div class="weather-widget" id="weather-widget">
                 <div class="weather-current">
                     <div class="weather-info">
-                        <h3 id="weather-location">Getting your location...</h3>
+                        <h3 id="weather-location">Singapore</h3>
                         <p id="weather-condition">Loading weather...</p>
                         <span id="weather-temp">--°</span>
                     </div>
@@ -184,8 +184,28 @@
                         <span id="weather-humidity">--%</span>
                     </div>
                     <div class="weather-detail">
-                        <span>Visibility</span>
-                        <span id="weather-visibility">-- km</span>
+                        <span>Rainfall</span>
+                        <span id="weather-rainfall">-- mm</span>
+                    </div>
+                </div>
+                
+                <!-- Cleanup Recommendation -->
+                <div class="cleanup-recommendation" id="cleanup-recommendation">
+                    <div class="recommendation-score">
+                        <span class="score-label">Beach Cleanup Score</span>
+                        <span class="score-value" id="cleanup-score">--</span>
+                    </div>
+                    <p class="recommendation-text" id="recommendation-text">Analyzing conditions...</p>
+                </div>
+            </div>
+
+            <!-- 7-Day Forecast -->
+            <div class="weather-forecast">
+                <h3 class="forecast-title">7-Day Forecast</h3>
+                <div class="forecast-container" id="forecast-container">
+                    <div class="forecast-loading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading forecast...</p>
                     </div>
                 </div>
             </div>
@@ -266,7 +286,17 @@
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
             crossorigin=""></script>
     
-    <!-- Custom JavaScript -->
+    <!-- ShoreSquad JavaScript -->
     <script src="js/app.js"></script>
+    
+    <!-- Weather Testing (for development) -->
+    <script src="weather-test.js"></script>
+    <script>
+        // Add weather testing to global scope for debugging
+        window.addEventListener('load', () => {
+            console.log('🌊 ShoreSquad Weather System loaded!');
+            console.log('💡 To test weather APIs, run: new WeatherTester().runAllTests()');
+        });
+    </script>
 </body>
 </html>
