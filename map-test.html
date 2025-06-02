@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Test - Pasir Ris Beach</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .map-container {
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .map-info {
+            background: #2E86AB;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .coordinates {
+            background: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #2E86AB;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🏖️ Google Maps Test - Next Cleanup Location</h1>
+        
+        <div class="map-info">
+            <h2>Pasir Ris Beach, Singapore</h2>
+            <p>📅 Saturday, December 21st, 2024 • ⏰ 8:00 AM - 12:00 PM</p>
+        </div>
+
+        <div class="map-container">
+            <iframe 
+                src="https://maps.google.com/maps?q=1.381497,103.955574&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Next Cleanup Location - Pasir Ris Beach, Singapore">
+            </iframe>
+        </div>
+
+        <div class="coordinates">
+            <strong>📍 Cleanup Starting Point:</strong><br>
+            Latitude: 1.381497°N<br>
+            Longitude: 103.955574°E<br>
+            <em>Street View Asia starting point</em>
+        </div>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <button style="background: #2E86AB; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                Join This Cleanup
+            </button>
+        </div>
+    </div>
+</body>
+</html>
